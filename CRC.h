@@ -10,6 +10,7 @@
 class CRC
 {
 public:
+	CRC(void);
 	static uint8_t  getCRC8(byte *data);
 	static uint16_t getCRC16(byte *data);
 	static uint32_t getCRC32(byte *data);

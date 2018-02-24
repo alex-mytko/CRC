@@ -62,7 +62,7 @@ static uint16_t CRC::getCRC16(byte *data)
 	return crc;
 }
 
-static uint8_t CRC::getCRC8(byte *data)
+static byte CRC::getCRC8(byte *data)
 {
 	const uint8_t crc_table[256] =
 	{

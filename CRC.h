@@ -10,9 +10,9 @@
 class CRC
 {
 public:
-	static uint8_t  getCRC8(byte* data);
-	static uint16_t getCRC16(byte* data);
-	static uint32_t getCRC32(byte* data);
+	static byte     getCRC8(byte *data);
+	static uint16_t getCRC16(byte *data);
+	static uint32_t getCRC32(byte *data);
 };
 
 #endif

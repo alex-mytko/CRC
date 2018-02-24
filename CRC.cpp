@@ -1,6 +1,8 @@
 #include "Arduino.h"
 #include "CRC.h"
 
+CRC::CRC(void) { }
+
 static uint32_t CRC::getCRC32(byte *data) 
 {
 	const uint32_t crc_table[16] = 

@@ -1,4 +1,4 @@
-static uint32_t CRC::getCRC32(byte* data) 
+static uint32_t CRC::getCRC32(byte *data) 
 {
 	const uint32_t crc_table[16] = 
 	{
@@ -19,7 +19,7 @@ static uint32_t CRC::getCRC32(byte* data)
 	return crc;
 }
 
-static uint16_t CRC::getCRC16(byte* data)
+static uint16_t CRC::getCRC16(byte *data)
 {
 	static uint16_t crc_table[256] = 
 	{
@@ -62,7 +62,7 @@ static uint16_t CRC::getCRC16(byte* data)
 	return crc;
 }
 
-static uint8_t CRC::getCRC8(byte* data)
+static uint8_t CRC::getCRC8(byte *data)
 {
 	const uint8_t crc_table[256] =
 	{
